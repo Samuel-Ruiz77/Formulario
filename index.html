@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="get">
+        Nombre: <input type="text" name="nomb" id="id_nomb" autofocus> <br>
+        Contraseña: <input type="password" name="pass" id="id_pass"> <br>
+        Correo electrónico: <input type="text" name="correo" id="id_correo"> <br>
+        URL: <input type="text" name="url" id="id_url" placeholder="Escribe la URL de tú página"> <br>
+        Fecha: <input type="date"> <br>
+        Tiempo: <input type="time"> <br>
+        Número (min -10, máx 10): <input type="number" name="num" id="id_num" min="-10" max="10" placeholder="0"> <br>
+        Télefono: <input type="number" name="telf" id="id_telf"> <br>
+        Término de búsqueda: <input type="text" name="term" id="id_term"> <br>
+        Color Favorito: <input type="color" name="color" id="id_color"> <br>
+        Sistema operativo: 
+        <select name="SO" id="id_SO">
+            <option value="WI">Windows</option>
+            <option value="LI">Linux</option>
+            <option value="MC">MacOS</option>
+        </select> <br>
+        Que lenguaje de programación web conoces?
+        <input type="checkbox" name="leng" id="id_leng" checked>Html5
+        <input type="checkbox" name="leng" id="id_leng" checked>Css3
+        <input type="checkbox" name="leng" id="id_leng">JavaScript
+        <input type="checkbox" name="leng" id="id_leng">Php
+        <input type="checkbox" name="leng" id="id_leng">Python <br>
+        Sabes utilizar Python?
+        <input type="radio" name="opc" id="id_opc" checked> Si
+        <input type="radio" name="opc" id="id_opc">No <br>
+        Comentarios: <textarea rows="5" cols="50"></textarea> <br>
+        <br>
+        <input type="submit" value="Submit!">
+    </form>
+</body>
+</html>
